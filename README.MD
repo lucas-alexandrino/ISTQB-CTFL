@@ -58,3 +58,49 @@ Conjunto de atividades para:
 De nada adianta um software que segue todos os requisitos especificados nas estórias do usuário, se o mesmo no dia-a-dia operacional da empresa não atende as necessidades dos usuários.
 
 > Ex: Um software que cumpre todos os requisitos especificados, mas é lento demais para certas tarefas do dia-a-dia.
+
+## Testes estáticos x Testes dinâmicos
+
+![Captura de tela 2024-08-07 114859.png](images/Captura%20de%20tela%202024-08-07%20114859.png)
+
+Teste de (Unidade, Unitário e Componente) são os mesmos, e na prova também são, de acordo com o glossário.
+
+> A parte mínima de um sistema que pode ser testado isoladamente.
+
+Teste de uma ou mais unidades(componentes) juntas, é um Teste de integração, ou Teste de integração de componentes
+
+## Imagem Resumo
+
+> A parte mínima de um sistema que pode ser testado isoladamente.
+> 
+
+Teste de uma ou mais unidades(componentes) juntas, é um Teste de integração, ou Teste de integração de componentes
+
+## Imagem Resumo
+
+![Resumo-teste-corrigido.png](images/Resumo-teste-corrigido.png)
+
+## 1.1.1 Objetivos do teste
+
+**Os objetivos típicos do teste são:**
+
+• Avaliar produtos de trabalho, como requisitos, histórias de usuários, projetos e código;
+• Detectar falhas e defeitos;
+• Garantir a cobertura necessária de um objeto de teste;
+• Reduzindo o nível de risco de qualidade de software inadequado;
+• Verificar se os requisitos especificados foram atendidos;
+• Verificar se um objeto de teste está em conformidade com os requisitos contratuais, legais e
+normativos;
+• Fornecer informações aos stakeholders para que eles possam tomar decisões informadas;
+• Criar confiança na qualidade do objeto de teste;
+• Validar se o objeto de teste está completo e funciona conforme o esperado pelos
+stakeholders.
+
+### Comentários:
+
+- ***Detectar falhas e defeitos***
+    1. Defeito: o que ocorre no processo de desenvolvimento do software ou nas atividades de **Verificação**, que se caso seja um erro na codificação pode tornar-se um Erro.
+    2. Falha: o que ocorre quando o software está em produção, nas atividades de **Validação**, quando o software apresenta comportamento e respostas diferentes do esperado, afetando diretamente a experiência do usuário final.
+    
+- ***Garantir a cobertura necessária de um objeto de teste***
+    1. Cobertura de teste: Ela mede o percentual de linhas testadas, ou seja, quantidade de linhas testadas dividido pelo total de linhas de código.
