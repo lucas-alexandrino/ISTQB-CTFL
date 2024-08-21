@@ -71,29 +71,22 @@ Teste de uma ou mais unidades(componentes) juntas, é um Teste de integração, 
 
 ## Imagem Resumo
 
-> A parte mínima de um sistema que pode ser testado isoladamente.
-> 
-
-Teste de uma ou mais unidades(componentes) juntas, é um Teste de integração, ou Teste de integração de componentes
-
-## Imagem Resumo
-
 ![Resumo-teste-corrigido.png](images/Resumo-teste-corrigido.png)
 
 ## 1.1.1 Objetivos do teste
 
 **Os objetivos típicos do teste são:**
 
-• Avaliar produtos de trabalho, como requisitos, histórias de usuários, projetos e código;
-• Detectar falhas e defeitos;
-• Garantir a cobertura necessária de um objeto de teste;
-• Reduzindo o nível de risco de qualidade de software inadequado;
-• Verificar se os requisitos especificados foram atendidos;
-• Verificar se um objeto de teste está em conformidade com os requisitos contratuais, legais e
+- Avaliar produtos de trabalho, como requisitos, histórias de usuários, projetos e código;
+- Detectar falhas e defeitos;
+- Garantir a cobertura necessária de um objeto de teste;
+- Reduzindo o nível de risco de qualidade de software inadequado;
+- Verificar se os requisitos especificados foram atendidos;
+- Verificar se um objeto de teste está em conformidade com os requisitos contratuais, legais e
 normativos;
-• Fornecer informações aos stakeholders para que eles possam tomar decisões informadas;
-• Criar confiança na qualidade do objeto de teste;
-• Validar se o objeto de teste está completo e funciona conforme o esperado pelos
+- Fornecer informações aos stakeholders para que eles possam tomar decisões informadas;
+- Criar confiança na qualidade do objeto de teste;
+- Validar se o objeto de teste está completo e funciona conforme o esperado pelos
 stakeholders.
 
 ### Comentários:
