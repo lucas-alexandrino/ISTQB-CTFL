@@ -75,6 +75,8 @@ Teste de uma ou mais unidades(componentes) juntas, é um Teste de integração, 
 
 ## 1.1.1 Objetivos do teste
 
+![objetivos-teste](images/Molde%20slides%20CTFL.png)
+
 **Os objetivos típicos do teste são:**
 
 - Avaliar produtos de trabalho, como requisitos, histórias de usuários, projetos e código;
@@ -97,3 +99,22 @@ stakeholders.
     
 - ***Garantir a cobertura necessária de um objeto de teste***
     1. Cobertura de teste: Ela mede o percentual de linhas testadas, ou seja, quantidade de linhas testadas dividido pelo total de linhas de código.
+
+
+## 1.1.2 Teste e Depuração
+
+### O teste e a depuração são atividades distintas
+
+O teste pode desencadear falhas causadas por defeitos de software(teste dinâmico) ou pode encontrar defeitos diretamente no objeto de teste (teste estático).
+
+Quando o teste dinâmico aciona uma falha, a **Depuração** se preocupa em encontrar as causas dessa falha(defeitos),analisar essas causas e eliminá-las.
+
+### Processo típico de Depuração(debugging)
+
+1. Reproduzir uma falha 
+2. Diagnosticar(encontrar a causa principal)
+3. Corrigir a causa
+
+**Teste de confirmação:** verificar se as correções resolveram o problema
+
+**Teste de regressão:** verificar se a correção de um problema não ocasionou falhas em outras partes do objeto de teste.
