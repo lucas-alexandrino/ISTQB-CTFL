@@ -61,7 +61,7 @@ De nada adianta um software que segue todos os requisitos especificados nas est�
 
 ## Testes estáticos x Testes dinâmicos
 
-![Captura de tela 2024-08-07 114859.png](images/Captura%20de%20tela%202024-08-07%20114859.png)
+![Captura de tela 2024-08-07 114859.png](images/testes_estatico_dinamico.png)
 
 Teste de (Unidade, Unitário e Componente) são os mesmos, e na prova também são, de acordo com o glossário.
 
@@ -75,7 +75,7 @@ Teste de uma ou mais unidades(componentes) juntas, é um Teste de integração, 
 
 ## 1.1.1 Objetivos do teste
 
-![objetivos-teste](images/Molde%20slides%20CTFL.png)
+![objetivos-teste](images/objetivos_teste.png)
 
 **Os objetivos típicos do teste são:**
 
