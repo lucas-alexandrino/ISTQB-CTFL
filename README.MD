@@ -118,3 +118,5 @@ Quando o teste dinâmico aciona uma falha, a **Depuração** se preocupa em enco
 **Teste de confirmação:** verificar se as correções resolveram o problema
 
 **Teste de regressão:** verificar se a correção de um problema não ocasionou falhas em outras partes do objeto de teste.
+
+![teste-depuracao](images/teste_depuracao.png)
