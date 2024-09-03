@@ -120,3 +120,9 @@ Quando o teste dinâmico aciona uma falha, a **Depuração** se preocupa em enco
 **Teste de regressão:** verificar se a correção de um problema não ocasionou falhas em outras partes do objeto de teste.
 
 ![teste-depuracao](images/teste_depuracao.png)
+
+## 1.2 Por que os testes são necessários?
+
+![necessidade_teste](images/necessidade_teste.png)
+
+## 1.2.1 Contribuições para o sucesso dos testes
