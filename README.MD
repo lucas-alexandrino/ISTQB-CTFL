@@ -1,6 +1,6 @@
 # Certified Tester Foundation Level (CTFL) v4.0 [NEW!]
 
-Este repositório contém conteudos e resumos, focados em testes e QA, que aprendi durante o estudo para a certificação CTFL 4.0 e outras certificações do <ISTQB>.
+Este repositório contém conteudos e resumos, focados em testes e QA, que aprendi durante o estudo para a certificação CTFL 4.0 e outras certificações do [ISTQB](https://www.istqb.org/).
 
 O conteúdo está ***numerado*** de acordo com os topicos abordados no Syllabus desta versão do CTFL
 
