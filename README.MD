@@ -126,3 +126,15 @@ Quando o teste dinâmico aciona uma falha, a **Depuração** se preocupa em enco
 ![necessidade_teste](images/necessidade_teste.png)
 
 ## 1.2.1 Contribuições para o sucesso dos testes
+
+## 1.2.2 Testes e Garantia da Qualidade (QA)
+
+### Teste e QA não são a mesma coisa
+
+- **QA (Quality Assurance ou Garantia da Qualidade)**
+    1. Um QA tem o papel um pouco mais amplo do que o de um Tester , deve garantir que todo o processo de desenvolvimento de software esteja dentro dos melhores padrões e práticas que levam à melhor qualidade.
+- **Tester (Analista de teste)**
+    1. O analista de teste tem como maior objetivo a execução de testes para identificar algum problema ou falha no software. Concentrando seus esforços em testes manuais e automatizados, entre outros.
+
+![qa_qc](images/qa_qc.png)
+![discurso_qaqc](images/discurso_qaqc.png)
