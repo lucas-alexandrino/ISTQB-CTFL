@@ -138,3 +138,24 @@ Quando o teste dinâmico aciona uma falha, a **Depuração** se preocupa em enco
 
 ![qa_qc](images/qa_qc.png)
 ![discurso_qaqc](images/discurso_qaqc.png)
+
+## 1.2.3 Erros, Defeitos, Falhas e Causas raiz
+
+> ***A mesma coisa** porém em momentos diferentes como uma borboleta(lagarta, casulo, borboleta)*
+> 
+
+**Erro(equívoco, engano):** Ação humana que produz um resultado incorreto.
+
+**Causa-Raiz:** Uma fonte de um defeito tal que, se ele for removido, a ocorrência do tipo do defeito é reduzida ou removida.
+
+**Defeito(Falta, bug):** Uma imperfeição ou deficiência em um produto de trabalho que não atende aos seus requisitos ou especificações ou prejudica o uso pretendido.
+
+**Falhas(Problema):** Um evento em que um componente ou sistema não atende a seus requisitos dentro dos limites especificados.
+
+![domino](images/domino.png)
+
+![warning](images/warning.png)
+
+Os erros e defeitos não são a única causa de falhas.
+
+As falhas também podem ser causadas por condições ambientais, como quando a radiação ou o campo eletromagnético causam defeitos no firmware.
