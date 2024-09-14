@@ -182,3 +182,32 @@ Processo de teste:
 
 > O conjunto de atividades inter-relacionadas que inclui planejamento de teste, monitoramento e controle de teste, análise de teste, modelagem de teste, implementação de teste, execução de teste e conclusão de teste.
 >
+
+
+## 1.4.1 Atividades e Tarefas de Teste
+
+Um **processo de teste** geralmente consiste nos principais grupos de atividades descritos abaixo.
+
+![monitoramento_controle](images/monitoramento_controle.png)
+
+![tabela_processo](images/tabela_processo.jpeg)
+
+***Atenção:***
+
+**Monitoramento x Controle:**
+
+Monitoramento: envolve a verificação contínua de todas as atividades de teste e a comparação do progresso real com o plano
+
+Controle: controle do teste envolve a tomada das ações necessárias para atingir os objetivos do teste.(Caso as atividades de teste não estejam atingindo o plano)
+
+**Execução do Teste:**
+
+Execução dos testes e gerenciamento dos defeitos que aparecerem.
+
+**Modelagem x Implementação:**
+
+Os procedimentos de testes, com o cronograma de execução dos testes(ordem) é apenas na **Implementação**.
+
+**Projeto de teste ou Modelagem:** 
+
+A mesma coisa.
