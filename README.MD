@@ -188,9 +188,10 @@ Processo de teste:
 
 Um **processo de teste** geralmente consiste nos principais grupos de atividades descritos abaixo.
 
-![monitoramento_controle](images/monitoramento_controle.png)
-
-![tabela_processo](images/tabela_processo.jpeg)
+<p float="left">
+  <img src="images/monitoramento_controle.png" width="400" />
+  <img src="images/tabela_processo.jpeg" width="400" /> 
+</p>
 
 ***Atenção:***
 
