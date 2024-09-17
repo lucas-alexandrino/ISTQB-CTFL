@@ -188,10 +188,9 @@ Processo de teste:
 
 Um **processo de teste** geralmente consiste nos principais grupos de atividades descritos abaixo.
 
-<p float="left">
-  <img src="images/monitoramento_controle.png" width="400" />
-  <img src="images/tabela_processo.jpeg" width="400" /> 
-</p>
+![monitoramento_controle](images/monitoramento_controle.png)
+
+![tabela_processo](images/tabela_processo.jpeg)
 
 ***Atenção:***
 
@@ -212,3 +211,7 @@ Os procedimentos de testes, com o cronograma de execução dos testes(ordem) é 
 **Projeto de teste ou Modelagem:** 
 
 A mesma coisa.
+
+## 1.4.2 Processo de teste no contexto
+
+Os **testes não são realizados de forma isolada**. As atividades de teste são parte integrante dos processos de desenvolvimento executados em uma organização. Os testes são financiados pelos stakeholders e seu objetivo final é **ajudar a atender às necessidades de negócio** deles.
