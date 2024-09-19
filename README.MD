@@ -215,3 +215,5 @@ A mesma coisa.
 ## 1.4.2 Processo de teste no contexto
 
 Os **testes não são realizados de forma isolada**. As atividades de teste são parte integrante dos processos de desenvolvimento executados em uma organização. Os testes são financiados pelos stakeholders e seu objetivo final é **ajudar a atender às necessidades de negócio** deles.
+
+![processo_teste](images/processo_teste.png)
