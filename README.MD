@@ -221,3 +221,22 @@ Os **testes não são realizados de forma isolada**. As atividades de teste são
 ## 1.4.3 Testware 
 
 ![testware](images/testware.png)
+
+## 1.4.4 Rastreabilidade entre a Base de teste e o Testware
+
+> ***Rastreabilidade:*** Entender quais foram os requisitos geradores, o que inspirou(Base de teste) os testes a serem criados, e o contrário, quais testes foram criados(Testware), e quais resultados foram produzidos a partir desses requisitos/estórias
+> 
+
+Além de avaliar a cobertura, uma boa rastreabilidade permite determinar o impacto das mudanças, facilita as auditorias de teste e ajuda a atender os critérios de governança de TI.
+
+A boa rastreabilidade também torna o progresso do teste e os relatórios de conclusão mais
+compreensíveis, incluindo o status dos elementos da base de teste. Isso também pode ajudar a
+comunicar os aspectos técnicos dos testes aos stakeholders de uma maneira compreensível.
+
+A rastreabilidade auxilia a parte de Monitoramento e controle do processo de teste
+
+A rastreabilidade fornece informações para avaliar a qualidade do produto, a capacidade do
+processo e o progresso do projeto em relação aos objetivos de negócio.
+
+![Rastreabilidade Bidirecional](images/rastreabilidade_teste.png)
+
