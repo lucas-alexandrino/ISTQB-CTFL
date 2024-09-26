@@ -240,3 +240,5 @@ processo e o progresso do projeto em relação aos objetivos de negócio.
 
 ![Rastreabilidade Bidirecional](images/rastreabilidade_teste.png)
 
+## 1.4.5 Papéis no Teste
+
