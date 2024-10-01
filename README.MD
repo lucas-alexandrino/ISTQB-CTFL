@@ -242,3 +242,5 @@ processo e o progresso do projeto em relação aos objetivos de negócio.
 
 ## 1.4.5 Papéis no Teste
 
+![papel_gerente](images/papel_gerente.png)
+![papel_testador](images/papel_testador.png)
