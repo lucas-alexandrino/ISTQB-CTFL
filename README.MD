@@ -246,3 +246,11 @@ processo e o progresso do projeto em relação aos objetivos de negócio.
   <img src="images/papel_gerente.png" width="400" />
   <img src="images/papel_testador.png" width="400" /> 
 </p>
+
+## 1.5 Habilidades essenciais e boas práticas em testes
+
+Soft skills até 1.5.2
+
+## 1.5.1 Habilidades genéricas necessárias para testes
+
+## 1.5.2 Abordagem de equipe completa
