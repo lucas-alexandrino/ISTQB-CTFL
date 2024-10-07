@@ -254,3 +254,10 @@ Soft skills até 1.5.2
 ## 1.5.1 Habilidades genéricas necessárias para testes
 
 ## 1.5.2 Abordagem de equipe completa
+
+## 1.5.3 Independência dos testes
+
+<p float="left">
+  <img src="images/independencia1.png" width="400" />
+  <img src="images/independencia2.png" width="400" /> 
+</p>
