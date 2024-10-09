@@ -261,3 +261,7 @@ Soft skills até 1.5.2
   <img src="images/independencia1.png" width="400" />
   <img src="images/independencia2.png" width="400" /> 
 </p>
+
+**Testadores independentes** provavelmente reconhecerão **diferentes tipos de falhas e defeitos** em comparação com os desenvolvedores, devido às suas diferentes formações, perspectivas técnicas e preconceitos.
+
+Há também algumas **desvantagens**. Os Testadores independentes podem ficar **isolados** da equipe de desenvolvimento, o que pode levar à **falta de colaboração**, a **problemas de comunicação** ou a uma **relação adversa** com a equipe de desenvolvimento.
