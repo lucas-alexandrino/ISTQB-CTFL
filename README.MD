@@ -265,3 +265,23 @@ Soft skills até 1.5.2
 **Testadores independentes** provavelmente reconhecerão **diferentes tipos de falhas e defeitos** em comparação com os desenvolvedores, devido às suas diferentes formações, perspectivas técnicas e preconceitos.
 
 Há também algumas **desvantagens**. Os Testadores independentes podem ficar **isolados** da equipe de desenvolvimento, o que pode levar à **falta de colaboração**, a **problemas de comunicação** ou a uma **relação adversa** com a equipe de desenvolvimento.
+
+## 2.Testes ao longo do Ciclo de Vida de Desenvolvimento de Software (SDLC)
+
+## 2.1 Testes no contexto de um CVDS(SDLC)
+
+> Um modelo de ciclo de vida de desenvolvimento de software (SDLC) é uma representação abstrata e de alto nível do processo de desenvolvimento de software.
+> 
+
+Um modelo SDLC define como as diferentes fases de desenvolvimento e os tipos de atividades realizadas nesse processo se relacionam entre si, tanto lógica quanto cronologicamente. 
+
+![tipos_sdlc](images/tipos_sdlc.png)
+
+Algumas ***atividades*** nos processos de desenvolvimento de software também podem ser descritas
+por ***métodos de desenvolvimento de software*** mais detalhados e práticas ágeis.
+
+![exemplos_sdlc](images/exemplos_sdlc.png)
+
+- ***Observação***
+    
+    Modelos de SDLC iterativos(loop) **E** incrementais, são ágeis (SCRUM, Kanban).
