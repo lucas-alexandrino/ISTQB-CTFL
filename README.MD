@@ -285,3 +285,7 @@ por ***métodos de desenvolvimento de software*** mais detalhados e práticas á
 - ***Observação***
     
     Modelos de SDLC iterativos(loop) **E** incrementais, são ágeis (SCRUM, Kanban).
+
+## 2.1 Impacto do CVDS nos Testes
+
+![cvds_impacto](images/cvds_impacto.png)
