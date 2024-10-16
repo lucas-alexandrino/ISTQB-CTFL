@@ -289,3 +289,14 @@ por ***métodos de desenvolvimento de software*** mais detalhados e práticas á
 ## 2.1 Impacto do CVDS nos Testes
 
 ![cvds_impacto](images/cvds_impacto.png)
+
+Nos modelos de **desenvolvimento sequencial**, nas fases iniciais, os Testadores normalmente
+participam das revisões de requisitos, da análise de testes e do projeto(modelagem) de testes. O código executável geralmente é criado nas fases posteriores, portanto, os testes dinâmicos não podem ser realizados no início do SDLC.
+
+Em alguns modelos de **desenvolvimento iterativos e incrementais**, supõe-se que cada iteração
+entregue um protótipo funcional ou um incremento de produto. Isso implica que, em cada iteração, os testes estáticos e dinâmicos podem ser realizados em **todos os níveis de teste**. A entrega frequente de incrementos exige feedback rápido e testes de regressão extensivos.
+
+O Desenvolvimento Ágil de Software pressupõe que podem ocorrer mudanças ao longo do projeto.
+Portanto, a documentação leve do produto de trabalho e a ampla automação de testes para facilitar os testes de regressão são favorecidas em projetos Ágeis. Além disso, a maior parte dos testes manuais tende a ser feita usando técnicas de teste baseadas na experiência (ver seção 4.4) que não exigem análise e projeto(modelagem) de teste prévio extensivo.
+
+![fluxograma_sdlc](images/Fluxograma.png)
