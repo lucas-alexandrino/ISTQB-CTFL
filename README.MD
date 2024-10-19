@@ -300,3 +300,11 @@ O Desenvolvimento Ágil de Software pressupõe que podem ocorrer mudanças ao lo
 Portanto, a documentação leve do produto de trabalho e a ampla automação de testes para facilitar os testes de regressão são favorecidas em projetos Ágeis. Além disso, a maior parte dos testes manuais tende a ser feita usando técnicas de teste baseadas na experiência (ver seção 4.4) que não exigem análise e projeto(modelagem) de teste prévio extensivo.
 
 ![fluxograma_sdlc](images/Fluxograma.png)
+
+
+## 2.1.2 CVDS e Boas práticas de Teste
+
+<p float="left">
+  <img src="images/boas_cvds.png" width="400" />
+  <img src="images/boas2_cvds.png" width="400" /> 
+</p>
