@@ -308,3 +308,17 @@ Portanto, a documentação leve do produto de trabalho e a ampla automação de 
   <img src="images/boas_cvds.png" width="400" />
   <img src="images/boas2_cvds.png" width="400" /> 
 </p>
+
+## 2.1.3 Teste como um motivador para o desenvolvimento de software
+
+**O TDD, ATDD e BDD são abordagens de desenvolvimento semelhantes, em que os testes são
+definidos como um meio de direcionar  o desenvolvimento.** 
+
+Cada uma dessas abordagens implementa o princípio do teste antecipado e segue uma abordagem shift-left, pois os testes são definidos antes de o código ser escrito. Elas dão suporte a um modelo de desenvolvimento iterativo. Essas abordagens são caracterizadas da seguinte forma:
+
+ 
+![fluxograma_sdlc](images/tdd_atdd.png)
+
+![fluxograma_sdlc](images/bdd.png)
+
+Para todas as abordagens acima, os testes podem persistir como testes automatizados para garantir a qualidade do código em futuras adaptações/refatoração.
