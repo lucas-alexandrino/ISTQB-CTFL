@@ -2,19 +2,19 @@
 
 Este repositório contém conteudos e resumos, focados em testes e QA, que aprendi durante o estudo para a certificação CTFL 4.0 e outras certificações do [ISTQB](https://www.istqb.org/).
 
-O conteúdo está ***numerado*** de acordo com os topicos abordados no Syllabus desta versão do CTFL
+O conteúdo está **_numerado_** de acordo com os topicos abordados no Syllabus desta versão do CTFL
 
 O exame tem os seguintes domínios do conteúdo e ponderações:
 
 | Capítulos | Questões | Percentagem |
-| - | - | ------ |
-| 1 | 8 | 26.67% |
-| 2 | 6 | 20.00% |
-| 3 | 4 | 13.33% |
-| 4 | 11| 36.67% |
-| 5 | 9 | 30.00% |
-| 6 | 2 | 6.67% |
-|  | 40 |  |
+| --------- | -------- | ----------- |
+| 1         | 8        | 26.67%      |
+| 2         | 6        | 20.00%      |
+| 3         | 4        | 13.33%      |
+| 4         | 11       | 36.67%      |
+| 5         | 9        | 30.00%      |
+| 6         | 2        | 6.67%       |
+|           | 40       |             |
 
 **Capítulo 1:** Fundamentos dos Testes
 
@@ -37,21 +37,21 @@ Conjunto de atividades para:
 - Descobrir defeitos
 - Avaliar a qualidade dos artefatos de software
 
-> *Artefatos de software* = De acordo com ISTQB, Objetos de teste ou software alvo de teste (o produto de trabalho a ser testado)
+> _Artefatos de software_ = De acordo com ISTQB, Objetos de teste ou software alvo de teste (o produto de trabalho a ser testado)
 
-> *Objetos de teste:* Amplo
+> _Objetos de teste:_ Amplo
 
-> *Itens de teste:* As funções dos objetos de teste, por exemplo: Site de banco(Objeto de teste) a função de ver saldo (Item de teste).
+> _Itens de teste:_ As funções dos objetos de teste, por exemplo: Site de banco(Objeto de teste) a função de ver saldo (Item de teste).
 
 ## Verificação x Validação
 
 ![Verificação_Validação](images/verificacao-validacao.png)
 
-***Verificação:***
+**_Verificação:_**
 ”Estamos construindo o produto corretamente?”
 • O software deve estar de acordo com sua especificação, os requisitos especificados na estória
 
-***Validação:***
+**_Validação:_**
 ”Estamos construindo o produto certo?”
 • O software deve fazer o que o usuário realmente deseja
 
@@ -85,21 +85,19 @@ Teste de uma ou mais unidades(componentes) juntas, é um Teste de integração, 
 - Reduzindo o nível de risco de qualidade de software inadequado;
 - Verificar se os requisitos especificados foram atendidos;
 - Verificar se um objeto de teste está em conformidade com os requisitos contratuais, legais e
-normativos;
+  normativos;
 - Fornecer informações aos stakeholders para que eles possam tomar decisões informadas;
 - Criar confiança na qualidade do objeto de teste;
 - Validar se o objeto de teste está completo e funciona conforme o esperado pelos
-stakeholders.
+  stakeholders.
 
 ### Comentários:
 
-- ***Detectar falhas e defeitos***
-    1. Defeito: o que ocorre no processo de desenvolvimento do software ou nas atividades de **Verificação**, que se caso seja um erro na codificação pode tornar-se um Erro.
-    2. Falha: o que ocorre quando o software está em produção, nas atividades de **Validação**, quando o software apresenta comportamento e respostas diferentes do esperado, afetando diretamente a experiência do usuário final.
-    
-- ***Garantir a cobertura necessária de um objeto de teste***
-    1. Cobertura de teste: Ela mede o percentual de linhas testadas, ou seja, quantidade de linhas testadas dividido pelo total de linhas de código.
-
+- **_Detectar falhas e defeitos_**
+  1. Defeito: o que ocorre no processo de desenvolvimento do software ou nas atividades de **Verificação**, que se caso seja um erro na codificação pode tornar-se um Erro.
+  2. Falha: o que ocorre quando o software está em produção, nas atividades de **Validação**, quando o software apresenta comportamento e respostas diferentes do esperado, afetando diretamente a experiência do usuário final.
+- **_Garantir a cobertura necessária de um objeto de teste_**
+  1. Cobertura de teste: Ela mede o percentual de linhas testadas, ou seja, quantidade de linhas testadas dividido pelo total de linhas de código.
 
 ## 1.1.2 Teste e Depuração
 
@@ -111,7 +109,7 @@ Quando o teste dinâmico aciona uma falha, a **Depuração** se preocupa em enco
 
 ### Processo típico de Depuração(debugging)
 
-1. Reproduzir uma falha 
+1. Reproduzir uma falha
 2. Diagnosticar(encontrar a causa principal)
 3. Corrigir a causa
 
@@ -132,17 +130,16 @@ Quando o teste dinâmico aciona uma falha, a **Depuração** se preocupa em enco
 ### Teste e QA não são a mesma coisa
 
 - **QA (Quality Assurance ou Garantia da Qualidade)**
-    1. Um QA tem o papel um pouco mais amplo do que o de um Tester , deve garantir que todo o processo de desenvolvimento de software esteja dentro dos melhores padrões e práticas que levam à melhor qualidade.
+  1. Um QA tem o papel um pouco mais amplo do que o de um Tester , deve garantir que todo o processo de desenvolvimento de software esteja dentro dos melhores padrões e práticas que levam à melhor qualidade.
 - **Tester (Analista de teste)**
-    1. O analista de teste tem como maior objetivo a execução de testes para identificar algum problema ou falha no software. Concentrando seus esforços em testes manuais e automatizados, entre outros.
+  1. O analista de teste tem como maior objetivo a execução de testes para identificar algum problema ou falha no software. Concentrando seus esforços em testes manuais e automatizados, entre outros.
 
 ![qa_qc](images/qa_qc.png)
 ![discurso_qaqc](images/discurso_qaqc.png)
 
 ## 1.2.3 Erros, Defeitos, Falhas e Causas raiz
 
-> ***A mesma coisa** porém em momentos diferentes como uma borboleta(lagarta, casulo, borboleta)*
-> 
+> **\*A mesma coisa** porém em momentos diferentes como uma borboleta(lagarta, casulo, borboleta)\*
 
 **Erro(equívoco, engano):** Ação humana que produz um resultado incorreto.
 
@@ -163,16 +160,15 @@ As falhas também podem ser causadas por condições ambientais, como quando a r
 ## 1.3 Princípios de teste
 
 > **São 7 Fundamentos(Princípios) de teste.**
-> 
 
-1. ***O teste mostra a presença, não a ausência de defeitos.*** Questão de cobertura de teste: 100% de cobertura de testes é igual a garantia completa da qualidade?
-2. ***Testes exaustivos são impossíveis.*** Testar todas as possibilidades de **entradas** é impossível ,exceto em softwares muitos pequenos.
-3. ***Testes antecipados economizam tempo e dinheiro.*** Regra 10 de Myers ou Shift-left
-4. ***Os defeitos se agrupam.*** Regra 80/20( Princípio de Pareto)
-5. ***Os testes se degradam.*** Se eu testar sempre do mesmo jeito, logo menos os testes não serão mais eficazes para encontrar bugs (Paradoxo do pesticida)
-6. ***Os testes dependem do contexto.*** Não existe uma única abordagem universalmente
-aplicável aos testes. Os testes são feitos de forma diferente em contextos diferentes . 100 horas para teste em uma Aeronave(Navegação, Entretenimento), Análise de risco.
-7. ***Falácia da ausência de defeitos.*** Além da verificação, a validação também deve ser realizada.
+1. **_O teste mostra a presença, não a ausência de defeitos._** Questão de cobertura de teste: 100% de cobertura de testes é igual a garantia completa da qualidade?
+2. **_Testes exaustivos são impossíveis._** Testar todas as possibilidades de **entradas** é impossível ,exceto em softwares muitos pequenos.
+3. **_Testes antecipados economizam tempo e dinheiro._** Regra 10 de Myers ou Shift-left
+4. **_Os defeitos se agrupam._** Regra 80/20( Princípio de Pareto)
+5. **_Os testes se degradam._** Se eu testar sempre do mesmo jeito, logo menos os testes não serão mais eficazes para encontrar bugs (Paradoxo do pesticida)
+6. **_Os testes dependem do contexto._** Não existe uma única abordagem universalmente
+   aplicável aos testes. Os testes são feitos de forma diferente em contextos diferentes . 100 horas para teste em uma Aeronave(Navegação, Entretenimento), Análise de risco.
+7. **_Falácia da ausência de defeitos._** Além da verificação, a validação também deve ser realizada.
 
 ## 1.4 Atividades de teste, Testware e Papéis no teste
 
@@ -181,8 +177,6 @@ O teste depende do **contexto**, mas, em um nível elevado, há **conjuntos comu
 Processo de teste:
 
 > O conjunto de atividades inter-relacionadas que inclui planejamento de teste, monitoramento e controle de teste, análise de teste, modelagem de teste, implementação de teste, execução de teste e conclusão de teste.
->
-
 
 ## 1.4.1 Atividades e Tarefas de Teste
 
@@ -192,7 +186,7 @@ Um **processo de teste** geralmente consiste nos principais grupos de atividades
 
 ![tabela_processo](images/tabela_processo.jpeg)
 
-***Atenção:***
+**_Atenção:_**
 
 **Monitoramento x Controle:**
 
@@ -208,7 +202,7 @@ Execução dos testes e gerenciamento dos defeitos que aparecerem.
 
 Os procedimentos de testes, com o cronograma de execução dos testes(ordem) é apenas na **Implementação**.
 
-**Projeto de teste ou Modelagem:** 
+**Projeto de teste ou Modelagem:**
 
 A mesma coisa.
 
@@ -218,14 +212,13 @@ Os **testes não são realizados de forma isolada**. As atividades de teste são
 
 ![processo_teste](images/processo_teste.png)
 
-## 1.4.3 Testware 
+## 1.4.3 Testware
 
 ![testware](images/testware.png)
 
 ## 1.4.4 Rastreabilidade entre a Base de teste e o Testware
 
-> ***Rastreabilidade:*** Entender quais foram os requisitos geradores, o que inspirou(Base de teste) os testes a serem criados, e o contrário, quais testes foram criados(Testware), e quais resultados foram produzidos a partir desses requisitos/estórias
-> 
+> **_Rastreabilidade:_** Entender quais foram os requisitos geradores, o que inspirou(Base de teste) os testes a serem criados, e o contrário, quais testes foram criados(Testware), e quais resultados foram produzidos a partir desses requisitos/estórias
 
 Além de avaliar a cobertura, uma boa rastreabilidade permite determinar o impacto das mudanças, facilita as auditorias de teste e ajuda a atender os critérios de governança de TI.
 
@@ -271,20 +264,18 @@ Há também algumas **desvantagens**. Os Testadores independentes podem ficar **
 ## 2.1 Testes no contexto de um CVDS(SDLC)
 
 > Um modelo de ciclo de vida de desenvolvimento de software (SDLC) é uma representação abstrata e de alto nível do processo de desenvolvimento de software.
-> 
 
-Um modelo SDLC define como as diferentes fases de desenvolvimento e os tipos de atividades realizadas nesse processo se relacionam entre si, tanto lógica quanto cronologicamente. 
+Um modelo SDLC define como as diferentes fases de desenvolvimento e os tipos de atividades realizadas nesse processo se relacionam entre si, tanto lógica quanto cronologicamente.
 
 ![tipos_sdlc](images/tipos_sdlc.png)
 
-Algumas ***atividades*** nos processos de desenvolvimento de software também podem ser descritas
-por ***métodos de desenvolvimento de software*** mais detalhados e práticas ágeis.
+Algumas **_atividades_** nos processos de desenvolvimento de software também podem ser descritas
+por **_métodos de desenvolvimento de software_** mais detalhados e práticas ágeis.
 
 ![exemplos_sdlc](images/exemplos_sdlc.png)
 
-- ***Observação***
-    
-    Modelos de SDLC iterativos(loop) **E** incrementais, são ágeis (SCRUM, Kanban).
+- **_Observação_**
+  Modelos de SDLC iterativos(loop) **E** incrementais, são ágeis (SCRUM, Kanban).
 
 ## 2.1 Impacto do CVDS nos Testes
 
@@ -301,7 +292,6 @@ Portanto, a documentação leve do produto de trabalho e a ampla automação de 
 
 ![fluxograma_sdlc](images/Fluxograma.png)
 
-
 ## 2.1.2 CVDS e Boas práticas de Teste
 
 <p float="left">
@@ -312,11 +302,10 @@ Portanto, a documentação leve do produto de trabalho e a ampla automação de 
 ## 2.1.3 Teste como um motivador para o desenvolvimento de software
 
 **O TDD, ATDD e BDD são abordagens de desenvolvimento semelhantes, em que os testes são
-definidos como um meio de direcionar  o desenvolvimento.** 
+definidos como um meio de direcionar o desenvolvimento.**
 
 Cada uma dessas abordagens implementa o princípio do teste antecipado e segue uma abordagem shift-left, pois os testes são definidos antes de o código ser escrito. Elas dão suporte a um modelo de desenvolvimento iterativo. Essas abordagens são caracterizadas da seguinte forma:
 
- 
 ![fluxograma_sdlc](images/tdd_atdd.png)
 
 ![fluxograma_sdlc](images/bdd.png)
@@ -328,13 +317,14 @@ Para todas as abordagens acima, os testes podem persistir como testes automatiza
 ![devops](images/devops.png)
 
 O DevOps promove a autonomia da equipe, feedback rápido, cadeias de ferramentas
-integradas e práticas técnicas como **Integração Contínua** (CI) e **Entrega Contínua** (CD). 
+integradas e práticas técnicas como **Integração Contínua** (CI) e **Entrega Contínua** (CD).
 
 Isso permite que as equipes criem, testem e liberem códigos de alta qualidade mais rapidamente por meio de um **pipeline de entrega** de DevOps (Kim 2016).
 
-![beneficios_devops](images/beneficios_devops1.png)
-
-![beneficios_devops2](images/beneficios_devops2.png)
+<p float="left">
+  <img src="images/beneficios_devops1.png" width="400" />
+  <img src="images/beneficios_devops2.png" width="400" /> 
+</p>
 
 O DevOps tem seus riscos e desafios, que incluem:
 • O **pipeline de entrega** de DevOps deve ser definido e estabelecido;
