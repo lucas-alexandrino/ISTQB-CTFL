@@ -322,3 +322,24 @@ Cada uma dessas abordagens implementa o princípio do teste antecipado e segue u
 ![fluxograma_sdlc](images/bdd.png)
 
 Para todas as abordagens acima, os testes podem persistir como testes automatizados para garantir a qualidade do código em futuras adaptações/refatoração.
+
+## 2.1.4 DevOps e Testes
+
+![devops](images/devops.png)
+
+O DevOps promove a autonomia da equipe, feedback rápido, cadeias de ferramentas
+integradas e práticas técnicas como **Integração Contínua** (CI) e **Entrega Contínua** (CD). 
+
+Isso permite que as equipes criem, testem e liberem códigos de alta qualidade mais rapidamente por meio de um **pipeline de entrega** de DevOps (Kim 2016).
+
+![beneficios_devops](images/beneficios_devops1.png)
+
+![beneficios_devops2](images/beneficios_devops2.png)
+
+O DevOps tem seus riscos e desafios, que incluem:
+• O **pipeline de entrega** de DevOps deve ser definido e estabelecido;
+• As **ferramentas** de CI/CD devem ser introduzidas e mantidas;
+• A **automação de testes** requer recursos adicionais e pode ser difícil de estabelecer e manter.
+
+Embora o DevOps venha com um alto nível de testes automatizados, os **testes manuais** -
+especialmente da perspectiva do usuário - **ainda serão necessários**.
