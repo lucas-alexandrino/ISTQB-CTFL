@@ -333,3 +333,17 @@ O DevOps tem seus riscos e desafios, que incluem:
 
 Embora o DevOps venha com um alto nível de testes automatizados, os **testes manuais** -
 especialmente da perspectiva do usuário - **ainda serão necessários**.
+
+## 2.1.5 Abordagem Shift-Left
+
+O princípio do **teste antecipado** às vezes é chamado de **shift-left** porque é uma abordagem em que o teste é realizado **mais cedo** no SDLC. 
+
+Normalmente, o shift-left sugere que os testes devem ser feitos mais cedo (p. ex., não esperar que o código seja implementado ou que os componentes sejam integrados), mas isso não significa que os **testes posteriores** no SDLC devam ser negligenciados.
+
+![shift_left1](images/shift_left1.png)
+
+![shift_left2](images/shift_left2.png)
+
+Uma abordagem shift-left pode resultar em treinamento, esforço e/ou custos adicionais no início do processo, mas espera-se que **economize** esforços e/ou custos no **final do processo**.
+
+Para a abordagem shift-left, é importante que os stakeholders sejam convencidos a aceitarem esse conceito.
