@@ -347,3 +347,20 @@ Normalmente, o shift-left sugere que os testes devem ser feitos mais cedo (p. ex
 Uma abordagem shift-left pode resultar em treinamento, esforço e/ou custos adicionais no início do processo, mas espera-se que **economize** esforços e/ou custos no **final do processo**.
 
 Para a abordagem shift-left, é importante que os stakeholders sejam convencidos a aceitarem esse conceito.
+
+## 2.1.6 Retrospectivas e melhoria de processos
+
+As retrospectivas (também conhecidas como "reuniões pós-projeto" e retrospectivas de projeto) geralmente são realizadas no final de um projeto ou de uma iteração, em um marco de lançamento, ou podem ser realizadas quando necessário. ***O momento e a organização das retrospectivas dependem do modelo específico de SDLC que está sendo seguido***. 
+
+Nessas reuniões, os participantes (não apenas os Testadores, mas também, por exemplo, Desenvolvedores, Arquitetos, Product Owner, Analistas de Negócios) discutem:
+
+**• O que foi bem-sucedido e deve ser mantido?**
+**• O que não foi bem-sucedido e poderia ser melhorado?**
+**• Como incorporar as melhorias e manter os sucessos no futuro?**
+
+Os **resultados** devem ser registrados e normalmente fazem parte do **relatório de conclusão do teste**. As retrospectivas são essenciais para a implementações bem-sucedidas da melhoria contínua e é importante que todas as melhorias recomendadas sejam acompanhadas.
+
+<p float="left">
+  <img src="images/retro1.png" width="400" />
+  <img src="images/retro2.png" width="400" /> 
+</p>
