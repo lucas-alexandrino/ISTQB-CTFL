@@ -364,3 +364,12 @@ Os **resultados** devem ser registrados e normalmente fazem parte do **relatóri
   <img src="images/retro1.png" width="400" />
   <img src="images/retro2.png" width="400" /> 
 </p>
+
+## 2.2 Níveis de teste e tipos de teste
+
+![niveis_tipos](images/niveis_tipos.png)
+
+- **IMPORTANTE!**
+    
+    Níveis: Etapas/Quando
+    Tipos: O que
