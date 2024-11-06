@@ -373,3 +373,7 @@ Os **resultados** devem ser registrados e normalmente fazem parte do **relatóri
     
     Níveis: Etapas/Quando
     Tipos: O que
+
+## 2.2.1 Níveis de teste
+
+![TiposdTeste](images/Tipos%20de%20teste.png)
