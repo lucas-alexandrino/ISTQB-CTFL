@@ -376,4 +376,4 @@ Os **resultados** devem ser registrados e normalmente fazem parte do **relatóri
 
 ## 2.2.1 Níveis de teste
 
-![TiposdTeste](images/Tipos%20de%20teste.png)
+![Niveisdteste](images/NiveisdTeste.png)
