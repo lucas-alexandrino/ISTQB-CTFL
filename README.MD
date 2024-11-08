@@ -377,3 +377,23 @@ Os **resultados** devem ser registrados e normalmente fazem parte do **relatóri
 ## 2.2.1 Níveis de teste
 
 ![Niveisdteste](images/NiveisdTeste.png)
+
+## 2.2.2 Tipos de teste
+
+![tipos_lista](images/tipos_lista.png)
+
+<p float="left">
+  <img src="images/teste_funcional.png" width="400" />
+  <img src="images/teste_nfuncional.png" width="400" /> 
+</p>
+
+Às vezes, é apropriado que os testes não funcionais comecem no início do ciclo de vida (p. ex., como parte de revisões e testes de componentes ou testes de sistema)
+
+Muitos testes não funcionais são derivados de testes funcionais, pois usam os mesmos testes
+funcionais, mas verificam se, ao executar a função, uma restrição não funcional é atendida (p. ex., verificar se uma função é executada dentro de um tempo especificado ou se uma função pode ser portada para uma nova plataforma).
+
+![caixa_pretabranca](images/caixa_pretabranca.png)
+
+**TODOS os quatro tipos de teste** mencionados podem ser aplicados a todos os **níveis de teste**, embora o foco seja diferente em cada nível.
+
+Diferentes técnicas de teste podem ser usadas para derivar **condições de teste** e **casos de teste** para todos os tipos de teste mencionados.
