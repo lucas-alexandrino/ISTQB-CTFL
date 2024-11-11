@@ -397,3 +397,9 @@ funcionais, mas verificam se, ao executar a função, uma restrição não funci
 **TODOS os quatro tipos de teste** mencionados podem ser aplicados a todos os **níveis de teste**, embora o foco seja diferente em cada nível.
 
 Diferentes técnicas de teste podem ser usadas para derivar **condições de teste** e **casos de teste** para todos os tipos de teste mencionados.
+
+## 2.2.3 Testes de confirmação e regressão
+
+Testes de confirmação e/ou testes de regressão para o objeto de teste são necessários em todos os níveis de teste se os defeitos forem corrigidos e/ou se forem feitas alterações nesses níveis de teste.
+
+VER MAIS NO SYLLABUS
