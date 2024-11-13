@@ -409,6 +409,7 @@ Há diferentes categorias de manutenção, que podem ser corretivas, adaptáveis
 ambiente ou melhorar a performance ou a capacidade de manutenção (ver ISO/IEC 14764 para mais detalhes), portanto, a manutenção pode envolver versões/implantações planejadas e
 versões/implantações não planejadas (hot fixes).
 
-![analise_impacto](images/analise_impacto.png)
-
-![testes_manutencao](images/testes_manutencao.png)
+<p float="left">
+  <img src="images/analise_impacto.png" width="400" />
+  <img src="images/testes_manutencao.png" width="400" /> 
+</p>
