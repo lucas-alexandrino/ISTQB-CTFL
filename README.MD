@@ -336,7 +336,7 @@ especialmente da perspectiva do usuário - **ainda serão necessários**.
 
 ## 2.1.5 Abordagem Shift-Left
 
-O princípio do **teste antecipado** às vezes é chamado de **shift-left** porque é uma abordagem em que o teste é realizado **mais cedo** no SDLC. 
+O princípio do **teste antecipado** às vezes é chamado de **shift-left** porque é uma abordagem em que o teste é realizado **mais cedo** no SDLC.
 
 Normalmente, o shift-left sugere que os testes devem ser feitos mais cedo (p. ex., não esperar que o código seja implementado ou que os componentes sejam integrados), mas isso não significa que os **testes posteriores** no SDLC devam ser negligenciados.
 
@@ -350,7 +350,7 @@ Para a abordagem shift-left, é importante que os stakeholders sejam convencidos
 
 ## 2.1.6 Retrospectivas e melhoria de processos
 
-As retrospectivas (também conhecidas como "reuniões pós-projeto" e retrospectivas de projeto) geralmente são realizadas no final de um projeto ou de uma iteração, em um marco de lançamento, ou podem ser realizadas quando necessário. ***O momento e a organização das retrospectivas dependem do modelo específico de SDLC que está sendo seguido***. 
+As retrospectivas (também conhecidas como "reuniões pós-projeto" e retrospectivas de projeto) geralmente são realizadas no final de um projeto ou de uma iteração, em um marco de lançamento, ou podem ser realizadas quando necessário. **_O momento e a organização das retrospectivas dependem do modelo específico de SDLC que está sendo seguido_**.
 
 Nessas reuniões, os participantes (não apenas os Testadores, mas também, por exemplo, Desenvolvedores, Arquitetos, Product Owner, Analistas de Negócios) discutem:
 
@@ -370,9 +370,8 @@ Os **resultados** devem ser registrados e normalmente fazem parte do **relatóri
 ![niveis_tipos](images/niveis_tipos.png)
 
 - **IMPORTANTE!**
-    
-    Níveis: Etapas/Quando
-    Tipos: O que
+  Níveis: Etapas/Quando
+  Tipos: O que
 
 ## 2.2.1 Níveis de teste
 
@@ -403,3 +402,13 @@ Diferentes técnicas de teste podem ser usadas para derivar **condições de tes
 Testes de confirmação e/ou testes de regressão para o objeto de teste são necessários em todos os níveis de teste se os defeitos forem corrigidos e/ou se forem feitas alterações nesses níveis de teste.
 
 VER MAIS NO SYLLABUS
+
+## 2.3 Teste de Manutenção
+
+Há diferentes categorias de manutenção, que podem ser corretivas, adaptáveis a mudanças no
+ambiente ou melhorar a performance ou a capacidade de manutenção (ver ISO/IEC 14764 para mais detalhes), portanto, a manutenção pode envolver versões/implantações planejadas e
+versões/implantações não planejadas (hot fixes).
+
+![analise_impacto](images/analise_impacto.png)
+
+![testes_manutencao](images/testes_manutencao.png)
