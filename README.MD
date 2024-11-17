@@ -413,3 +413,29 @@ versões/implantações não planejadas (hot fixes).
   <img src="images/analise_impacto.png" width="400" />
   <img src="images/testes_manutencao.png" width="400" /> 
 </p>
+
+## 3.1 Noções básicas de teste Estático
+
+Ao contrário dos testes dinâmicos, nos testes estáticos o software em teste não precisa ser
+executado. O código, a especificação do processo, a especificação da arquitetura do sistema ou outros produtos de trabalho são avaliados por meio de **exame manual** (p. ex., revisões) ou com a **ajuda de uma ferramenta** (p. ex., análise estática).
+
+Os objetivos do teste incluem:
+
+- Detecção de defeitos
+- Avaliar legibilidade
+- Integridade
+- Correção
+- Testabilidade
+- Consistência
+
+> ***O teste estático pode ser aplicado tanto para verificação quanto para validação.***
+> 
+
+Testadores, representantes do negócio e desenvolvedores trabalham juntos durante o mapeamento de exemplos, escrita colaborativa de histórias de usuários e sessões de refinamento do backlog para garantir que as histórias de usuários e os produtos de trabalho relacionados atendam aos critérios definidos, por exemplo, a **Definição de Pronto** (DoR - Definition of Ready) (ver seção 5.1.3). 
+
+Técnicas de revisão podem ser aplicadas para garantir critérios de aceite testáveis. 
+
+A análise estática pode identificar problemas antes dos testes dinâmicos e, muitas vezes, exige menos esforço **(Shift-left)**, já que não são necessários casos de teste e, normalmente, são usadas ferramentas (ver capítulo 6). 
+
+A análise estática é frequentemente incorporada às estruturas de CI.
+Embora seja amplamente usada para detectar defeitos específicos no código, *a análise estática também é usada para avaliar a **capacidade de manutenção e a segurança***. Verificadores *ortográficos e ferramentas de legibilidade* são outros exemplos de ferramentas de análise estática.
