@@ -429,7 +429,7 @@ Os objetivos do teste incluem:
 - Consistência
 
 > ***O teste estático pode ser aplicado tanto para verificação quanto para validação.***
-
+> 
 
 Testadores, representantes do negócio e desenvolvedores trabalham juntos durante o mapeamento de exemplos, escrita colaborativa de histórias de usuários e sessões de refinamento do backlog para garantir que as histórias de usuários e os produtos de trabalho relacionados atendam aos critérios definidos, por exemplo, a **Definição de Pronto** (DoR - Definition of Ready) (ver seção 5.1.3). 
 
@@ -439,3 +439,11 @@ A análise estática pode identificar problemas antes dos testes dinâmicos e, m
 
 A análise estática é frequentemente incorporada às estruturas de CI.
 Embora seja amplamente usada para detectar defeitos específicos no código, *a análise estática também é usada para avaliar a **capacidade de manutenção e a segurança***. Verificadores *ortográficos e ferramentas de legibilidade* são outros exemplos de ferramentas de análise estática.
+
+## 3.1.1 Produtos de trabalho examináveis por testes estáticos
+
+
+<p float="left">
+  <img src="images/produtos_revisao.png" width="400" />
+  <img src="images/produtos_revisao2.png" width="400" />
+</p>
