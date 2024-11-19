@@ -429,7 +429,7 @@ Os objetivos do teste incluem:
 - Consistência
 
 > ***O teste estático pode ser aplicado tanto para verificação quanto para validação.***
-> 
+
 
 Testadores, representantes do negócio e desenvolvedores trabalham juntos durante o mapeamento de exemplos, escrita colaborativa de histórias de usuários e sessões de refinamento do backlog para garantir que as histórias de usuários e os produtos de trabalho relacionados atendam aos critérios definidos, por exemplo, a **Definição de Pronto** (DoR - Definition of Ready) (ver seção 5.1.3). 
 
