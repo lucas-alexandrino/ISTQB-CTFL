@@ -472,6 +472,12 @@ caminhos do código que raramente são executados ou que são difíceis de alcan
 • Os testes estáticos podem ser usados para medir as características de qualidade que não
 dependem da execução do código **(p. ex., capacidade de manutenção, segurança)**, enquanto os testes dinâmicos podem ser usados para medir as características de qualidade que **dependem** da execução do código (p. ex., eficiência de performance).
 
+
+<p float="left">
+  <img src="images/defeitos_estatico.png" width="400" />
+  <img src="images/defeitos_estatico2.png" width="400" />
+</p>
+
 ## 3.2.1 Benefícios do feedback antecipado e frequente dos stakeholders
 
 O feedback antecipado e frequente permite a comunicação precoce de possíveis problemas de
@@ -479,9 +485,3 @@ qualidade, o feedback frequente dos stakeholders durante todo o SDLC pode evitar
 
 Isso permite que a equipe se concentre nos recursos que agregam mais valor aos
 stakeholders e que têm o **maior impacto positivo** sobre os riscos identificados
-
-
-<p float="left">
-  <img src="images/defeitos_estatico.png" width="400" />
-  <img src="images/defeitos_estatico2.png" width="400" />
-</p>
