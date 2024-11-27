@@ -485,3 +485,22 @@ qualidade, o feedback frequente dos stakeholders durante todo o SDLC pode evitar
 
 Isso permite que a equipe se concentre nos recursos que agregam mais valor aos
 stakeholders e que têm o **maior impacto positivo** sobre os riscos identificados
+
+## 3.2.2 Atividades do processo de revisão
+
+A norma **ISO/IEC 20246** define um processo de revisão genérico que fornece um framework
+estruturado, e técnicas de revisão.
+
+O **tamanho** de muitos produtos de trabalho os torna **grandes demais** para serem cobertos por uma
+única revisão. O processo de revisão pode ser invocado **algumas vezes** para concluir a revisão de todo o produto de trabalho.
+
+As atividades no processo de revisão são:
+
+- **Planejamento:** É definido o escopo da revisão, que inclui o objetivo, o produto de trabalho a ser revisado, as características de qualidade a serem avaliadas, as áreas a serem enfocadas, os critérios de saída, as informações de apoio, como padrões, o esforço e os prazos para a revisão.
+- **Início da Revisão:** garantir que todos os participantes tenham acesso ao **produto de trabalho**, **entendam suas funções e responsabilidades** e recebam tudo **o que for necessário** para realizar a análise.
+- **Revisão Individual:** Cada revisor realiza uma **revisão individual** para avaliar a qualidade do produto de trabalho sob revisão e para identificar **anomalias**, **recomendações** e **perguntas**, aplicando uma ou mais técnicas de revisão. Os revisores registram todas as **anomalias**, **recomendações** e **perguntas** identificadas.
+- **Comunicação e Análise de problemas:** Como as **anomalias** identificadas durante uma
+revisão não são **necessariamente** defeitos, todas essas **anomalias** precisam ser analisadas e
+discutidas. Para cada uma encontrada, deve ser tomada uma decisão sobre seu **status**, **propriedade** e **ações necessárias**. Normalmente, isso é feito na reunião de revisão, na qual  também decidimos qual é o **nível de qualidade do produto de trabalho revisado** e quais **ações de acompanhamento** são necessárias. 
+Pode ser necessária uma **revisão de acompanhamento** para concluir as ações.
+- **Correção e relatório:** Para cada **defeito**, deve ser criado um **relatório de defeitos** para que as **ações corretivas possam ser acompanhadas**. Quando os critérios de saída forem atingidos, o produto de trabalho poderá ser aceito(DoR). Os resultados da revisão são relatados.
