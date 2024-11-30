@@ -504,3 +504,22 @@ revisão não são **necessariamente** defeitos, todas essas **anomalias** preci
 discutidas. Para cada uma encontrada, deve ser tomada uma decisão sobre seu **status**, **propriedade** e **ações necessárias**. Normalmente, isso é feito na reunião de revisão, na qual  também decidimos qual é o **nível de qualidade do produto de trabalho revisado** e quais **ações de acompanhamento** são necessárias. 
 Pode ser necessária uma **revisão de acompanhamento** para concluir as ações.
 - **Correção e relatório:** Para cada **defeito**, deve ser criado um **relatório de defeitos** para que as **ações corretivas possam ser acompanhadas**. Quando os critérios de saída forem atingidos, o produto de trabalho poderá ser aceito(DoR). Os resultados da revisão são relatados.
+
+## 3.2.3 Funções e responsabilidades nas revisões
+
+As revisões envolvem vários stakeholders, que podem assumir diversas funções. As principais, e suas responsabilidades são:
+
+- **Gerente**: decide o que deve ser revisado e fornece recursos, como equipe e tempo para a
+revisão
+- **Líder da revisão**: assume a responsabilidade geral pela revisão, como decidir quem estará
+envolvido e organizar quando e onde a revisão será realizada
+- **Moderador** (também conhecido como **facilitador**): garante o andamento eficaz das reuniões
+de revisão, incluindo mediação, gerenciamento de tempo e um ambiente de revisão seguro
+no qual todos possam falar livremente
+- **Relator** (também conhecido como **registrador**): reúne as anomalias dos revisores e registra
+as informações da revisão, como decisões e **novas anomalias encontradas durante a reunião
+de revisão**
+- **Revisor**: realiza revisões. Um revisor pode ser alguém que esteja trabalhando no projeto, um **especialista** no assunto ou qualquer outra parte interessada
+- **Autor**: cria e corrige o produto de trabalho em análise
+
+**Outras funções mais detalhadas são possíveis.**
