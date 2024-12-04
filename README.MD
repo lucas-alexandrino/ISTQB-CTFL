@@ -481,7 +481,7 @@ dependem da execução do código **(p. ex., capacidade de manutenção, seguran
 ## 3.2.1 Benefícios do feedback antecipado e frequente dos stakeholders
 
 O feedback antecipado e frequente permite a comunicação precoce de possíveis problemas de
-qualidade, o feedback frequente dos stakeholders durante todo o SDLC pode evitar **mal-entendidos sobre os requisitos** e garantir que as alterações nos requisitos sejam compreendidas e implementadas mais cedo,
+qualidade, o feedback frequente dos stakeholders durante todo o SDLC pode evitar **mal-entendidos sobre os requisitos** e garantir que as alterações nos requisitos sejam compreendidas e implementadas mais cedo
 
 Isso permite que a equipe se concentre nos recursos que agregam mais valor aos
 stakeholders e que têm o **maior impacto positivo** sobre os riscos identificados
