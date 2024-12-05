@@ -481,7 +481,7 @@ dependem da execução do código **(p. ex., capacidade de manutenção, seguran
 ## 3.2.1 Benefícios do feedback antecipado e frequente dos stakeholders
 
 O feedback antecipado e frequente permite a comunicação precoce de possíveis problemas de
-qualidade, o feedback frequente dos stakeholders durante todo o SDLC pode evitar **mal-entendidos sobre os requisitos** e garantir que as alterações nos requisitos sejam compreendidas e implementadas mais cedo
+qualidade, o feedback frequente dos stakeholders durante todo o SDLC pode evitar **mal-entendidos sobre os requisitos** e garantir que as alterações nos requisitos sejam compreendidas e implementadas mais cedo,
 
 Isso permite que a equipe se concentre nos recursos que agregam mais valor aos
 stakeholders e que têm o **maior impacto positivo** sobre os riscos identificados
@@ -523,3 +523,27 @@ de revisão**
 - **Autor**: cria e corrige o produto de trabalho em análise
 
 **Outras funções mais detalhadas são possíveis.**
+
+## 3.2.4 Tipos de revisão
+
+<p float="left">
+  <img src="images/tipos_revisao1.png" width="400" />
+  <img src="images/tipos_revisao2.png" width="400" />
+</p>
+
+Alguns tipos de revisão comumente usados são:
+
+- **Revisão Informal:** As revisões informais não seguem um processo definido e não exigem um
+resultado formal documentado. O principal objetivo é detectar anomalias.
+- **Walkthrough:** Um passo a passo, **conduzido pelo autor**, pode servir  a muitos objetivos, como
+**instruir os revisores**, **obter consenso**, detectar anomalias. Os revisores podem realizar uma revisão individual antes do passo a passo, mas isso não é obrigatório.
+- **Revisão técnica:** Uma revisão técnica é realizada por **revisores tecnicamente qualificados** e
+**liderada por um moderador**. Os objetivos de uma revisão técnica são **obter consenso** e tomar
+decisões em **relação a um problema técnico**, mas também detectar anomalias.
+- **Inspeção:** Como as inspeções são o **tipo mais formal de revisão**, elas seguem o processo
+genérico completo (framework de revisão). O **objetivo principal** é encontrar o **número máximo de anomalias**. As métricas são coletadas e usadas para aprimorar o SDLC, **inclusive o processo de inspeção**. Nas inspeções, o autor não pode atuar como líder ou relator da revisão.
+
+- **IMPORTANTE!**
+    
+    Todos os tipos de revisão, **EXCETO** a informal, tem por objetivo avaliar a
+    qualidade e criar confiança no produto do trabalho, gerar novas ideias e motivar e capacitar os autores a melhorar.
