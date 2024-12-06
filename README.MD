@@ -547,3 +547,19 @@ genérico completo (framework de revisão). O **objetivo principal** é encontra
     
     Todos os tipos de revisão, **EXCETO** a informal, tem por objetivo avaliar a
     qualidade e criar confiança no produto do trabalho, gerar novas ideias e motivar e capacitar os autores a melhorar.
+
+## 3.2.5 Fatores de sucesso para revisões
+
+- Definir objetivos claros e critérios de saída mensuráveis. A avaliação dos participantes nunca deve ser um objetivo;
+- Escolher o tipo de revisão apropriado para atingir os objetivos determinados e se adequar ao tipo de produto de trabalho, aos participantes da revisão, às necessidades e ao contexto do projeto;
+- Realizar revisões em pequenas partes, de modo que os revisores não percam a concentração
+durante uma revisão individual e/ou a reunião de revisão (quando realizada);
+- Fornecer feedback das revisões aos stakeholders e aos autores para que eles possam
+melhorar o produto e suas atividades ;
+- Fornecer tempo suficiente para que os participantes se preparem para a revisão;
+- Apoio da gerência para o processo de revisão;
+- Tornar as revisões parte da cultura da organização, para promover o aprendizado e o
+aprimoramento dos processos;
+- Fornecer treinamento adequado a todos os participantes para que eles saibam como
+desempenhar suas funções;
+- Facilitação de reuniões;
