@@ -551,7 +551,7 @@ genérico completo (framework de revisão). O **objetivo principal** é encontra
 ## 3.2.5 Fatores de sucesso para revisões
 
 - Definir objetivos claros e critérios de saída mensuráveis. A avaliação dos participantes nunca deve ser um objetivo;
-- Escolher o tipo de revisão apropriado para atingir os objetivos determinados e se adequar ao tipo de produto de trabalho, aos participantes da revisão, às necessidades e ao contexto do projeto;
+- Escolher o tipo de revisão apropriado para atingir os objetivos determinados e se adequar ao tipo de produto de trabalho, aos participantes da revisão, às necessidades e ao contexto do projeto.
 - Realizar revisões em pequenas partes, de modo que os revisores não percam a concentração
 durante uma revisão individual e/ou a reunião de revisão (quando realizada);
 - Fornecer feedback das revisões aos stakeholders e aos autores para que eles possam
