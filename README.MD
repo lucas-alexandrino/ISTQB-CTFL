@@ -645,3 +645,18 @@ Sabor: Baunilha, Chocolate, Mista | 3
 
 Menor número de testes: 3(devido o maior numero de opções)
 
+## 4.2.2 Análise de Valor de Limite (BVA)
+
+Para aplicação dessa técnica, é **necessário** que exista um EP(Particionamento de equivalência) e é necessário que as partições sejam **continuas e ordenadas**
+
+Caso o BVA sendo utilizado seja de **2 valores**(ou 2 pontos) **preste atenção no enunciado**, e identifique se ele diz **acima** **ou abaixo**, que é pra onde você vai expandir o teste, caso ele não especifique **acima ou abaixo**, **sempre suba um ponto.**
+Caso seja o BVA de 3 valores, basta pegar o valor limite e **decrementar** E **acrescentar um**.
+
+![BVA](images/BVA.png)
+
+Lembrar que em **unidades de medidas** ou **outros valores** em que seja impossível(invalido) -0, também adicionar uma **partição inválida**.
+
+https://edisciplinas.usp.br/pluginfile.php/1289345/mod_resource/content/0/Aula09_TesteFuncional-Estrutural-AnaliseMutantes.pdf
+
+https://qualidadebr.wordpress.com/tag/particao-de-equivalencia-analise-do-valor-limite-tabela-de-decisao-teste-de-transicao-de-estados-teste-de-caso-de-uso/
+
