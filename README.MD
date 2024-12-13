@@ -660,3 +660,75 @@ https://edisciplinas.usp.br/pluginfile.php/1289345/mod_resource/content/0/Aula09
 
 https://qualidadebr.wordpress.com/tag/particao-de-equivalencia-analise-do-valor-limite-tabela-de-decisao-teste-de-transicao-de-estados-teste-de-caso-de-uso/
 
+## 4.2.3 Teste de Tabela de Decisão
+
+As tabelas de decisão são usadas para testar a **implementação dos requisitos do sistema** que
+especificam como diferentes **combinações de condições** resultam em **diferentes resultados**. As
+tabelas de decisão são uma forma eficaz de registrar **lógicas complexas**, como **regras de negócios**.
+
+> ***Tipos de Tabela de decisão:***
+> 
+- Tabelas de decisão de **entrada limitada**, todos os valores das condições e ações (**exceto os irrelevantes ou inviáveis**) são mostrados como valores **booleanos** (verdadeiro ou falso).
+- Tabelas de decisão de **entrada** **estendida**, algumas ou todas as condições e ações também podem assumir **valores múltiplos** (p. ex., intervalos de números, partições de equivalência, valores discretos).
+
+> ***Notação para condições***
+> 
+- "V" (verdadeiro) significa que a condição foi satisfeita.
+- "F" (falso) significa que a condição não foi satisfeita.
+- "-" significa que o valor da condição é irrelevante para o resultado da ação.
+- "N/A" significa que a condição é inviável para uma determinada regra.
+
+> ***Notação para ações***
+> 
+- "X" significa que a ação deve ocorrer
+- Em branco significa que a ação não deve ocorrer
+
+- **IMPORTANTE!**
+    
+    No teste de tabela de decisão, os **itens de cobertura** são as **colunas** que contêm combinações viáveis de condições
+    
+
+O **número máximo** de testes **EM TABELA DE DECISÃO** é a **multiplicação das possibilidades** de **cada condição**(variável)
+
+Ex: **TABELA COMPLETA/EXPANDIDA**
+Condições(Variáveis) | Partições |
+
+-Cartão Válido       | V ou F 2x2 =4
+
+-Senha Válida        | V ou F 4x2 =8
+
+-Saldo >=100         | V ou F 
+
+> *Número máximo de testes(**multiplicação das opções**):8*
+> 
+
+O **número mínimo** de testes **EM TABELA DE DECISÃO** é a **contagem** das condições +1
+
+Ex: **Tabela reduzida/compactada**
+
+Condições(Variáveis) | Regras de decisão(colunas)
+
+-Cartão Válido       | V V V F
+
+-Senha Válida        | V V F V
+
+-Saldo >=100         | V F V V
+
+> *Número mínimo (**Cartão, senha, saldo**) : 3+1=4*
+> 
+
+- **IMPORTANTE!**
+    
+    Caso uma condição tenha um valor de entrada que seja >2 (ou não booleano) será necessário contar todas as partições dessa condição, mais as demais condições
+    
+    Ex: Condições     | Partições(valores)
+        Cartão válido | Cartão valido
+                      | Cartão extraviado
+                      | Cartão bloqueado
+    
+    Conta Mínimo: 3+2+1(Caminho feliz)=6
+
+<p float="left">
+  <img src="images/tabela.png" width="400" />
+  <img src="images/tabela2.png" width="400" />
+</p>
