@@ -732,3 +732,68 @@ Condições(Variáveis) | Regras de decisão(colunas)
   <img src="images/tabela.png" width="400" />
   <img src="images/tabela2.png" width="400" />
 </p>
+
+## 4.2.4 Teste de Transição de Estado
+
+Um **diagrama de transição de estado** modela o comportamento de um sistema, mostrando seus
+**possíveis estados** e **transições de estado válidas.**
+
+Uma **transição de estado** é **iniciada por um evento**, em que podem **OU** não haver condições de proteção, e ações do software a partir desse evento.
+
+A sintaxe comum de rotulagem de transição é a seguinte:
+
+> evento [condição de proteção] / ação
+> 
+
+- **Condição de proteção:** Uma condição booleana que precisa ser satisfeita para o evento ocorrer.
+    
+    > Ex:
+    
+    **Estados:** "Cartão Inserido", "Autenticando", “Transação”, “Cartão Ejetado”.
+    > 
+    > 
+    > **Transição**: De "Cartão Inserido" para "Autenticando".
+    > 
+    > - **Evento de Entrada**: O usuário digita o PIN.
+    > - **Condição de Proteção**: O cartão inserido é válido.
+    > - **Descrição**: O ATM só passará para o estado de autenticação **se** o cartão inserido for reconhecido como válido (condição de proteção), além de o PIN ter sido digitado.
+    
+
+O **número máximo** de **CASOS DE TESTE**, em um **diagrama de transição de estado**, é a contagem das setas(transições)
+
+![maximo_testcase](images/maximo_testcase.png)
+
+O **número mínimo** de **CASOS DE TESTE**, em um **diagrama de transição de estado**, é a contagem das setas **NO ÚLTIMO ESTADO, ou percorrendo todas as transições.**
+
+![minimo_testcase](images/minimo_testcase.png)
+
+Observar as setas que chegam nos penúltimos estados, também PODE ajudar.
+
+Uma **tabela de estados** é um modelo equivalente a um diagrama de transição de estados. 
+
+Ao contrário do diagrama de transição de estados, a tabela de estados mostra **explicitamente** as **transições inválidas**, que são representadas por células vazias.
+
+- Linhas = Estados
+- Colunas = Eventos
+- Entradas(células) = Transições de estado(juntamente com o estado de destino)
+
+![TABELA DE ESTADOS](images/tabela_de_transicao.PNG.png)
+
+TABELA DE ESTADOS
+
+> ***Tipos de critérios de cobertura em teste de transição de estado***
+> 
+
+- Na **cobertura de todos os estados**, os itens de cobertura são os estados. Para atingir 100% de cobertura de todos os estados, os casos de teste devem garantir que **todos os estados sejam visitados**
+- Na **cobertura de transições válidas** (***0-switch***), os itens de cobertura são transições válidas **únicas**. Para atingir 100% de cobertura de transições válidas, os casos de teste devem executar todas as transições válidas.
+- Na **cobertura de todas as transições**, os itens de cobertura são **todas** as transições mostradas em uma **tabela de estados**. Para atingir 100% de cobertura, os casos de teste devem executar todas as transições válidas e as **transições inválidas**
+Uma **transição inválida** por caso de teste, para evitar o **mascaramento de falhas**(*um defeito impedir outro de ocorrer*)
+
+- **IMPORTANTE!**
+    
+    O nível de cobertura do teste está relacionado ao número de **transições consecutivas** cobertas. *N-switch*
+    Se cada **transição valida for testada unicamente**, alcançaremos “cobertura de 0-switch”. A cobertura de switch 0 significa que não nos concentramos em testar **transições consecutivas**(*apenas testar uma transição de estado)*. 
+    Se as **sequências de duas transições** forem testadas, então todas as **combinações de duas transições consecutivas** são testadas, alcançamos “cobertura de 1-switch”
+    
+
+![nswitch](images/nswitch_coverage.png)
