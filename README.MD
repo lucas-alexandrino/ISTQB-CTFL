@@ -797,3 +797,10 @@ Uma **transição inválida** por caso de teste, para evitar o **mascaramento de
     
 
 ![nswitch](images/nswitch_coverage.png)
+
+## 4.3 Técnicas de Teste Caixa-Branca
+
+As técnicas de **teste caixa-branca** comumente usadas e discutidas nas seções a seguir são:
+
+- Teste de instruções (Testes dos laços condicionais do código e do **for**)
+- Teste de ramificação(Teste das diferentes decisões dos laços de condição)
