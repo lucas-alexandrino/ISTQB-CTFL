@@ -804,3 +804,13 @@ As técnicas de **teste caixa-branca** comumente usadas e discutidas nas seçõe
 
 - Teste de instruções (Testes dos laços condicionais do código e do **for**)
 - Teste de ramificação(Teste das diferentes decisões dos laços de condição)
+
+## 4.3.1 Teste de Instrução e Cobertura de Instrução
+
+No teste de instrução, o objetivo é projetar casos de teste que exercitem as instruções no código até que um nível **aceitável de cobertura** seja alcançado. 
+
+Os itens de cobertura são as **instruções executáveis**. Quando a cobertura de 100% das instruções é alcançada, está garantido que **todas as instruções executáveis** no código tenham sido executadas pelo menos uma vez. Em particular, isso significa que
+**cada instrução com um defeito será executada**, o que pode causar uma falha que demonstre a
+presença do defeito. 
+
+No entanto, a cobertura de 100% de instrução não garante que toda a lógica de decisão tenha sido testada, pois, por exemplo, ela pode não executar todas as decisões do código.
