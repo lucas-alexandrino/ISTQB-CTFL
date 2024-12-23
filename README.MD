@@ -814,3 +814,21 @@ Os itens de cobertura são as **instruções executáveis**. Quando a cobertura 
 presença do defeito. 
 
 No entanto, a cobertura de 100% de instrução não garante que toda a lógica de decisão tenha sido testada, pois, por exemplo, ela pode não executar todas as decisões do código.
+
+## 4.3.2 Teste de Ramificação e Cobertura de Ramificação
+
+Uma ramificação é uma **transferência de controle** entre dois nós no gráfico do **fluxo de controle**, que mostra as **possíveis** **sequências** nas quais as instruções do código-fonte são executadas no objeto de teste. 
+
+A transferência de controle pode ser:
+
+- **incondicional** (ou seja, código em linha reta)
+- **condicional** (ou seja, um resultado de decisão, if/else, switch, loop).
+
+As ramificações condicionais normalmente correspondem a um resultado verdadeiro ou falso de uma **decisão** "if...then", um **resultado de uma instrução** “switch/case” ou uma **decisão de sair ou continuar** em um “loop
+
+- IMPORTANTE!
+    - Na regra do C, uma instrução dentro de outra instrução **não conta**, independente se for(if,for,switch) apenas as ramificações contam
+    
+    ![regradoc](images/regrac.png)
+    
+    - **A Ramificação é ≥= a instrução**. Isso significa que qualquer conjunto de casos de teste que atinja 100% de cobertura de ramificação também atinge 100% de cobertura de instrução (mas não vice-versa).
