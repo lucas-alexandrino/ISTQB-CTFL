@@ -836,7 +836,8 @@ As ramificações condicionais normalmente correspondem a um resultado verdadeir
     
 ## 4.3.3 O valor do Teste Caixa-Branca
 
-![valor_caixabranca](images/valor_caixabranca2.png)
-
-![valor_caixabranca](images/valor_caixabranca.png)
+<p float="left">
+  <img src="images/valor_caixabranca.png" width="400" />
+  <img src="images/valor_caixabranca2.png" width="400" />
+</p>
 
