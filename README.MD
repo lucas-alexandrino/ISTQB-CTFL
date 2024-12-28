@@ -824,7 +824,7 @@ A transferência de controle pode ser:
 - **incondicional** (ou seja, código em linha reta)
 - **condicional** (ou seja, um resultado de decisão, if/else, switch, loop).
 
-As ramificações condicionais normalmente correspondem a um resultado verdadeiro ou falso de uma **decisão** "if...then", um **resultado de uma instrução** “switch/case” ou uma **decisão de sair ou continuar** em um “loop"
+As ramificações condicionais normalmente correspondem a um resultado verdadeiro ou falso de uma **decisão** "if...then", um **resultado de uma instrução** “switch/case” ou uma **decisão de sair ou continuar** em um “loop
 
 - IMPORTANTE!
     - Na regra do C, uma instrução dentro de outra instrução **não conta**, independente se for(if,for,switch) apenas as ramificações contam
@@ -832,3 +832,11 @@ As ramificações condicionais normalmente correspondem a um resultado verdadeir
     ![regradoc](images/regrac.png)
     
     - **A Ramificação é ≥= a instrução**. Isso significa que qualquer conjunto de casos de teste que atinja 100% de cobertura de ramificação também atinge 100% de cobertura de instrução (mas não vice-versa).
+
+    
+## 4.3.3 O valor do Teste Caixa-Branca
+
+![valor_caixabranca](images/valor_caixabranca2.png)
+
+![valor_caixabranca](images/valor_caixabranca.png)
+
