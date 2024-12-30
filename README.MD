@@ -841,3 +841,13 @@ As ramificações condicionais normalmente correspondem a um resultado verdadeir
   <img src="images/valor_caixabranca2.png" width="400" />
 </p>
 
+
+## **4.4 Técnicas de Teste Baseadas na Experiência**
+
+As técnicas de teste baseadas na experiência comumente usadas e discutidas nas seções a seguir são:
+
+• Suposição de erro
+• Teste exploratório
+• Teste baseado em lista de verificação
+
+**Fazer um resumo para cada entre parênteses.**
