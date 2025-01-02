@@ -851,3 +851,25 @@ As técnicas de teste baseadas na experiência comumente usadas e discutidas nas
 • Teste baseado em lista de verificação
 
 **Fazer um resumo para cada entre parênteses.**
+
+## 4.4.1 Suposição de Erro
+
+A suposição de erro é uma técnica usada para **prever** a ocorrência de **erros**, **defeitos** e **falhas**, com base no conhecimento do Testador, incluindo:
+
+- Como o aplicativo funcionou no passado;
+- Os tipos de erros que os desenvolvedores tendem a cometer;
+- Os tipos de defeitos;
+- Os tipos de falhas que ocorreram em outros aplicativos semelhantes.
+
+![suposicaoerro](images/suposicaoerro.png)
+
+Essa técnica exige que o Testador crie ou adquira uma **lista de possíveis erros, defeitos e falhas.** 
+
+> Essas listas podem ser criadas com base
+> 
+
+- na **experiência**
+- nos **dados** de defeitos e falhas
+- no **conhecimento comum** sobre o motivo pelo qual o software falha
+
+E partindo dessa lista, **modele testes** que identifiquem os defeitos associados aos erros, exponham os defeitos ou causem as falhas.
