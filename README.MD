@@ -873,3 +873,28 @@ Essa técnica exige que o Testador crie ou adquira uma **lista de possíveis err
 - no **conhecimento comum** sobre o motivo pelo qual o software falha
 
 E partindo dessa lista, **modele testes** que identifiquem os defeitos associados aos erros, exponham os defeitos ou causem as falhas.
+
+## 4.4.2 Testes Exploratórios
+
+No teste exploratório, os testes são **modelados**, **executados** e **avaliados simultaneamente** enquanto o Testador aprende sobre o objeto de teste. O teste é usado para aprender mais sobre o objeto de teste, para explorá-lo mais profundamente com testes focados e para criar testes para áreas não testadas.
+
+Às vezes, o teste exploratório é estruturado e realizado usando **testes baseados em sessões**. Em uma abordagem baseada em sessões, o teste exploratório é realizado dentro de um **período definido**. O Testador usa uma carta de teste contendo os objetivos do teste para orientar o teste. 
+
+![testeexploratorio](images/testeexploratorio.png)
+
+> ***Os testes exploratórios são úteis quando há:***
+> 
+
+- poucas especificações ou especificações inadequadas
+- pressão significativa de tempo
+- Complementar técnicas de teste mais formais(*o texto exploratório pode incorporar o uso de outras técnicas de teste como EP*)
+
+> ***As regras de um teste exploratório são as seguintes:***
+> 
+
+- Analise, modelagem, implementação e execução simultaneamente
+- **Testador experiente**(*Conhecimento do domínio e habilidades analíticas, curiosidade e criatividade)*
+- **Planejamento mínimo prévio** (p. ex., carta de teste, sessão de teste)
+- **Sessão de teste** de no mín. 30 minutos, máx. 120 minutos.
+
+***Caso contrário o teste poderá ser um teste Ad-hoc***
