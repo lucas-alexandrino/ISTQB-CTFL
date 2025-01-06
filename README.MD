@@ -898,3 +898,26 @@ No teste exploratório, os testes são **modelados**, **executados** e **avaliad
 - **Sessão de teste** de no mín. 30 minutos, máx. 120 minutos.
 
 ***Caso contrário o teste poderá ser um teste Ad-hoc***
+
+## 4.4.3 Testes baseados em Lista de Verificação
+
+As listas de verificação não devem conter itens que possam ser verificados automaticamente, itens mais adequados como critérios de entrada/saída ou itens muito gerais
+
+> ***As listas de verificação podem ser criadas com base:***
+> 
+
+- na experiência
+- no conhecimento sobre o que é valioso para o usuário
+- compreensão de por que e como o software falha
+
+> ***As listas de verificação não devem conter itens:***
+> 
+
+- Verificados automaticamente
+- Muito específicos como critérios de entrada/saída
+- Muito gerais
+
+Os **itens da lista de verificação** geralmente são formulados na forma de uma **pergunta**. Deve ser possível verificar cada item **separadamente** e **diretamente**.
+Esses itens podem se referir a requisitos, **propriedades da interface gráfica**, características de qualidade ou outras formas de condições de teste. As listas de verificação podem ser criadas para dar **suporte** a vários tipos de teste, incluindo testes funcionais e não funcionais.
+
+![listaverificacao](images/listaverificacao.png)
