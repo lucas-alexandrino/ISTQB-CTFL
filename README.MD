@@ -921,3 +921,5 @@ Os **itens da lista de verificação** geralmente são formulados na forma de um
 Esses itens podem se referir a requisitos, **propriedades da interface gráfica**, características de qualidade ou outras formas de condições de teste. As listas de verificação podem ser criadas para dar **suporte** a vários tipos de teste, incluindo testes funcionais e não funcionais.
 
 ![listaverificacao](images/listaverificacao.png)
+
+## 4.5 Abordagens de teste baseadas na colaboração
